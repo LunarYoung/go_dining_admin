@@ -31,13 +31,13 @@ mysql:
   # 用户名
   username: root
   # 密码
-  password: 123456
+  password: shxocvie3468
   # 数据库名
   database: go_web_mini
   # 主机地址
   host: 106.13.192.119
   # 端口
-  port: 3306
+  port: 3307
   # 连接字符串参数
   query: parseTime=True&loc=Local&timeout=10000ms
   # 是否打印日志
