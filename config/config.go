@@ -33,7 +33,8 @@ func InitConfig() {
 
 	viper.SetConfigName("config")
 	viper.SetConfigType("yml")
-	viper.AddConfigPath(workDir + "./")
+	//苹果的路径和windosbu不一样好像
+	viper.AddConfigPath(workDir + "/")
 	// 读取配置信息
 	err = viper.ReadInConfig()
 
